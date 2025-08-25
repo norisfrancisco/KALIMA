@@ -16,34 +16,33 @@ Os dados de precipitação foram obtidos através da API do **Google Earth Engin
 
 ## 🔬 Análise e Visualização
 
-O script principal (`2_analise_precipitacao.py`) realiza um controle de qualidade, calcula estatísticas descritivas, analisa tendências e gera as seguintes visualizações:
+O script principal (`2_analise_precipitacao.py`) realiza um controle de qualidade, calcula estatísticas descritivas, analisa tendências e gera as seguintes visualizações de alta qualidade:
 
 * **Precipitação vs. Climatologia:** Compara a precipitação do ano mais recente com a normal climatológica (1995-2024), incluindo a faixa de variação normal (percentis 25-75).
 
-    ![Gráfico de Precipitação vs Climatologia](graficos/1_precipitacao_vs_climatologia_variacao.png)
+    ![Gráfico de Precipitação vs Climatologia](1_precipitacao_vs_climatologia_variacao.png)
 
 * **Gráfico de Anomalias:** Mostra o desvio (em mm) da precipitação de cada mês do ano mais recente em relação à média climatológica.
 
-    ![Gráfico de Anomalias](graficos/2_precipitacao_anomalia_mensal.png)
+    ![Gráfico de Anomalias](2_precipitacao_anomalia_mensal.png)
 
 * **Série Temporal (1981-2025):** Mostra a evolução da precipitação mensal ao longo de todo o período.
 
-    ![Série Temporal Mensal](graficos/1_precip_timeseries_mensal.png)
+    ![Série Temporal Mensal](1_precip_timeseries_mensal.png)
 
 * **Precipitação Anual e Tendência:** Gráfico de barras com a precipitação total de cada ano e a linha de tendência.
 
-    ![Gráfico de Tendência Anual](graficos/4_precip_tendencia_anual.png)
+    ![Gráfico de Tendência Anual](4_precip_tendencia_anual.png)
 
 * **Sazonalidade (Boxplot):** Ilustra o padrão sazonal de chuvas ao longo do ano.
 
-    ![Boxplot Sazonal](graficos/2_precip_boxplot_mensal.png)
+    ![Boxplot Sazonal](2_precip_boxplot_mensal.png)
 
 * **Histograma:** Mostra a distribuição de frequência dos valores de precipitação.
 
-    ![Histograma de Precipitação](graficos/3_precip_histograma.png)
+    ![Histograma de Precipitação](3_precip_histograma.png)
 
 ## 📁 Estrutura do Repositório
-
 
 
 /
@@ -72,3 +71,4 @@ O script principal (`2_analise_precipitacao.py`) realiza um controle de qualidad
 ## 📊 Resultados
 
 Todos os gráficos são salvos automaticamente na pasta `graficos`. As tabelas de resultados são salvas na pasta de saída especificada no script.
+
